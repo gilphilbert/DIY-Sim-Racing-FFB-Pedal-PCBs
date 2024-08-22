@@ -5,7 +5,7 @@ Most of my PCB designs are custom-built for the DIY Force Feedback Pedal, and pr
 
 Initially, this repository contains files for my [ESP32-S3-based pedal control board](esp32-s3-usb-b/readme.md). Later I will add a power board and a bridge board, and maybe some other stuff (like an ESP32-based controller board or a variant with USB-C instead of USB-B).
 
-# Ordering the PCBs
+## Ordering assembled PCBs
 You can buy plain boards and assemble them yourself if you're a massachist. I've done it myself but I don't recommend it. Placing some of the devices, especially the ESP32-S3 IC are very tricky due to their size and how close the pins are. Only do this if you're really sure you can do it right! For most mortals, get the PCB assembled professionaly by a robot that's better at this than we are.
 
 1. Download the gerber, BOM and pick-and-place files. These are what you need to order the PCBs fully assembled from JLCPCB.
