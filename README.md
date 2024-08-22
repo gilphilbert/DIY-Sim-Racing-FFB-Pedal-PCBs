@@ -21,5 +21,12 @@ Now click `Next`. You will need to sign in or create an account to continue.
 Click `Next`
 7. Finally, you will be given a summary and you can click `Save to cart`. Now it's like checking out anywhere else, you don't need my help for that!
 
-# Questions?
+## What does "assembled" mean?
+It means you don't need to solder any components onto the board! However, you are responsible for (doing a good job) soldering any connectors you want to use onto the boards. Boards will ship without pin connectors, unless you modify your order with JLCPCB. You can use:
+- [JST-XH connectors](https://www.aliexpress.us/item/4000120545240.html) a standard connector widely used in electronics, in fact they're in the iSV Servo
+- [Screw terminals](https://www.aliexpress.us/item/1005001677869988.html) an easy way to connect that just uses bare wire, but are bulkier
+- [Pin headers](https://www.aliexpress.us/item/1005001514058091.html) not generally recommended as they're unreliable
+- Solder wire straight to the board
+
+## Questions?
 Come ask on [the PCBA channel on the Discord server](https://discordapp.com/channels/1113129142142120159/1269625529334628373).
