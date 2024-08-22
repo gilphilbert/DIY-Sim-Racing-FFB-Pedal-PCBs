@@ -3,7 +3,7 @@ This repository contains my PCB Designs for ChrGri/DIY-Sim-Racing-FFB-Pedal
 
 Most of my PCB designs are custom-built for the DIY Force Feedback Pedal, and probably aren't really useful for anything else. Most of the boards are designed to be bought fully assembled by a PCBA company - my files should all work at JLCPCB.
 
-Initially, this repository contains files for my ESP32-S3-based pedal control board. Later I will add a power board and a bridge board, and maybe some other stuff (like an ESP32-based controller board or a variant with USB-C instead of USB-B).
+Initially, this repository contains files for my [ESP32-S3-based pedal control board](esp32-s3-usb-b/readme.md). Later I will add a power board and a bridge board, and maybe some other stuff (like an ESP32-based controller board or a variant with USB-C instead of USB-B).
 
 # Ordering the PCBs
 You can buy plain boards and assemble them yourself if you're a massachist. I've done it myself but I don't recommend it. Placing some of the devices, especially the ESP32-S3 IC are very tricky due to their size and how close the pins are. Only do this if you're really sure you can do it right! For most mortals, get the PCB assembled professionaly by a robot that's better at this than we are.
