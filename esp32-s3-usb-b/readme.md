@@ -5,7 +5,7 @@ I started building a Sim Racing pedal for my rig with a friend and realized fair
 
 Initially, the board was based on the ESP32-S3-WROOM module that Espressif offers. This is nice because it's already certified for commercial use, but it has one major downside - it requires the use of specially controlled temperatures during assembly. This can make it expensive to build, because you can't use economy PCBA services. Of course, if you're going to assemble these boards at home that doesn't matter but some SMT parts are not for the feint of heart - especially the smaller ones. Now it's based on the ESP32-S3 chip with 128Mb of SPI-flash, which mimics the ESP32-S3-WROOM(N16) module.
 
-![3D Render](images/3d-render.png)
+![3D Render](3d-render.png)
 
 # Features
 - Tiny size! It's just over 2" square (51mm x 51mm)
