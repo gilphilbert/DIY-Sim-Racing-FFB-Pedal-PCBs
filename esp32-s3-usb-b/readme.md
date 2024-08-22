@@ -1,3 +1,6 @@
+# ESP32-S3 control board
+
+## Background
 I started building a Sim Racing pedal for my rig with a friend and realized fairly quickly that we wanted a PCB design different to the one that's part of the project. My main reasons for this are:
 - Something more compact than the one included in the main hardware repository
 - I also wanted to rely less on hobbyist parts (dev boards) and have something more built-for-purpose
@@ -7,7 +10,7 @@ Initially, the board was based on the ESP32-S3-WROOM module that Espressif offer
 
 ![3D Render](3d-render.png)
 
-# Features
+## Features
 - Tiny size! It's just over 2" square (51mm x 51mm)
 - ESP32-S3 based, so you can get USB-HID support out of the box and won't need to use Bluetooth or additional boards*
 - Dedicated connections for loadcell, servo serial, servo signal, an emergency cut-off button
