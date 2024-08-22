@@ -21,9 +21,6 @@ Initially, the board was based on the ESP32-S3-WROOM module that Espressif offer
 - USB-B connector for power and data (the ESP32-S3 can also be flashed with this interface)
 - If you're going totally wireless, the board can be powered directly from the 5V header without a USB cable plugged in.
 
-__Warning__
-This version of the board doesn't provide any protection against plugging in two different power sources! If you're going wireless, you can use the 5V header to power the board, but DO NOT PLUG **ANYTHING** INTO THE USB PORT while power is supplied to the 5V header.
-
 *As of the time of writing, USB-HID support is experimental and may be unreliable. This board also has a IPEX header for wireless communication to the wireless setup or you can use Bluetooth or vJoy.
 
 ## A quick note on connectors
