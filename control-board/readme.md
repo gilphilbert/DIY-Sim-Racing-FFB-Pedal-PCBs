@@ -1,4 +1,4 @@
-# ESP32-S3 control board
+# Pedal control board
 
 ## Background
 I started building a Sim Racing pedal for my rig with a friend and realized fairly quickly that we wanted a PCB design different to the one that's part of the project. My main reasons for this are:
