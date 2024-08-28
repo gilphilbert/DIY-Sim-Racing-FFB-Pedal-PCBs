@@ -17,7 +17,14 @@ You can select the number of PCBs to order. The miniumum is 5, then it's increme
 Now click `Next`. You will need to sign in or create an account to continue.
 4. You'll see a picture of the PCB (step 1). Just click `Next`, there's nothing to do here.
 5. Next you'll need to upload the BOM and pick-and-place files you downloaded. Click on the `Process` button
+You might see a warning at this point for some of the boards. Don't panic! That's normal, just press on "Continue"
+![Warning](images/ordering/5-error.png)
 6. The next screen will show you all the parts in the BOM and confirm the quantity of each. If stock is low or there isn't any stock of some parts then you will be notified. You will need to find a compatible part. Feel free to ask on the PCBA channel on the Discord server if you don't know how to find a part. Don't use the recommended replacements in the window, they're often the wrong size!
+**Note**
+For some reason JLCPCB seems have issues with two parts on the control board, so you might see this:
+![Missing parts](images/ordering/6-unmatched-parts.png)
+Click on "Search" then click on "Select" for the only line item.
+
 Click `Next`
 7. Finally, you will be given a summary and you can click `Save to cart`. Now it's like checking out anywhere else, you don't need my help for that!
 

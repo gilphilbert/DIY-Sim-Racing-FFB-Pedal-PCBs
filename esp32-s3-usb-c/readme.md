@@ -8,7 +8,7 @@ I started building a Sim Racing pedal for my rig with a friend and realized fair
 
 Initially, the board was based on the ESP32-S3-WROOM module that Espressif offers. This is nice because it's already certified for commercial use, but it has one major downside - it requires the use of specially controlled temperatures during assembly. This can make it expensive to build, because you can't use economy PCBA services. Of course, if you're going to assemble these boards at home that doesn't matter but some SMT parts are not for the feint of heart - especially the smaller ones. Now it's based on the ESP32-S3 chip with 128Mb of SPI-flash, which mimics the ESP32-S3-WROOM(N16) module.
 
-![3D Render](3d-render.png)
+![3D Render](3drender-v1.1.png)
 
 ## Features
 - Tiny size! It's just over 2" square (51mm x 51mm)
@@ -26,3 +26,15 @@ Initially, the board was based on the ESP32-S3-WROOM module that Espressif offer
 ## A quick note on connectors
 The board will ship without connectors installed - this reduces to the cost of the board (otherwise you need to pay a human at JLCPCB to install them) but also allows you to use whatever connector type you like, or solder straight to the board. This means that while the board comes assembled, you will need a soldering iron (or a friend with one) to be able to finish the board.
 
+## Assign a function
+Before you begin, you must assign a function to the pedal: throttle, brake or clutch. This is done with SW1. You will find instructions on the back of the board but they're here for reference:
+![SW1 reference](../images/usage/setting-pedal-type.png)
+
+## Flashing the board
+Flashing the board is largely the same as any other device, but there are a few quirks. So read before flashing!
+1. Start with the board unplugged
+2. Check the names of the serial ports on your PC (if any)
+3. While holding down the "Flash" button ("Boot" on older boards), plug the board in to your PC
+4. A new serial port (COM port) will appear on your PC, note which one it is
+5. Now you can follow the instuctions from the main Wiki, just make sure you flash the `-gilphilbert` flash image
+6. When you've flashed all the images (with the correct offsets!) press reset, or simply unplug the board from your PC and plug it back in
