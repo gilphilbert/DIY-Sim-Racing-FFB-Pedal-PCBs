@@ -28,6 +28,7 @@ The board will ship without connectors installed - this reduces to the cost of t
 
 ## Assign a function
 Before you begin, you must assign a function to the pedal: throttle, brake or clutch. This is done with SW1. You will find instructions on the back of the board but they're here for reference:
+
 ![SW1 reference](../images/usage/setting-pedal-type.png)
 
 ## Flashing the board
