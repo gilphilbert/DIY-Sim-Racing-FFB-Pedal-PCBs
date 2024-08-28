@@ -17,11 +17,11 @@ Initially, the board was based on the ESP32-S3-WROOM module that Espressif offer
 - DIP switches to select the pedal type when using the wireless bridge (Accelerator, Brake or Clutch)
 - All headers are 2.54mm, meaning you can connect 'normal' pin headers, JST-XH connectors or just solder straight to the board, use screw terminals or use any other 2.54mm pitch connector
 - Fully compatible with mainline release builds, you don't need any special firmware builds to use this PCB
-- If you want to use Bluetooth or Wifi an u.fl/IPEX connector is included for an external antenna (useful if you pedal is aluminum)
+- If you want to use the wireless connection, an u.fl/IPEX connector is included for an external antenna (useful if you pedal is aluminum)
 - USB-B connector for power and data (the ESP32-S3 can also be flashed with this interface)
 - If you're going totally wireless, the board can be powered directly from the 5V header without a USB cable plugged in.
 
-*As of the time of writing, USB-HID support is experimental and may be unreliable. This board also has a IPEX header for wireless communication to the wireless setup or you can use Bluetooth or vJoy.
+*As of the time of writing, USB-HID support is experimental and may be unreliable. This board also has a IPEX header for wireless communication to the wireless setup or you can use vJoy.
 
 ## Do I need anything special for this board?
 If you're going to be using the wireless connection you'll need an antenna for the board. I use the flexible internal type but you can use anything that has an IPEX 4 connector.
