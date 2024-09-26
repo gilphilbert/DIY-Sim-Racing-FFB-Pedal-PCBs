@@ -1,9 +1,15 @@
 # DIY-Sim-Racing-FFB-Pedal-PCBs
 This repository contains my PCB Designs for ChrGri/DIY-Sim-Racing-FFB-Pedal
 
-These PCB designs are custom-built for the DIY Force Feedback Pedal, and probably aren't really useful for anything else. Most of the boards are designed to be bought fully assembled by a PCBA company - my files should all work at JLCPCB. The power PCB you could probably assemble by hand if you have the equipment, but don't even try with the others.
+These PCB designs are custom-built for the [DIY Force Feedback Pedal](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal), and probably aren't really useful for anything else. Most of the boards are designed to be bought fully assembled by a PCBA company - my files should all work at JLCPCB. The power PCB you could probably assemble by hand if you have the equipment, but don't even try with the others.
 
-Initially, this repository contains files for my [ESP32-S3-based pedal control board](control-board/readme.md). Later I will add a power board and a bridge board, and maybe some other stuff (like an ESP32-based controller board if there's interest or boards with different connectors).
+This repository contains files for the fully-assembled PCBs for the DIY project including the control and power boards.
+
+### Control board
+The [ESP32-S3-based pedal control board](control-board/readme.md) is the brains of the pedal, offering USB and wireless connections
+
+### Power board
+The [power board](power-board/readme.md) provides protection for the iSV57T servo and 5V power for the control board
 
 ## Ordering assembled PCBs
 You can buy plain boards and assemble them yourself if you're a massachist. I've done it myself but I don't recommend it. Placing some of the devices, especially the ESP32-S3 IC are very tricky due to their size and how close the pins are. Only do this if you're really sure you can do it right! For most mortals, get the PCB assembled professionaly by a robot that's better at this than we are.
