@@ -10,7 +10,7 @@ Initially, the board was based on the ESP32-S3-WROOM module that Espressif offer
 
  ![3D Image](pcb-v1.2.jpg)
 
- > ![INFO]
+ > [!INFO]
  > The image says v1.1, but this is the v1.2 board, it was a silkscreen misprint!
 
 ## Features
