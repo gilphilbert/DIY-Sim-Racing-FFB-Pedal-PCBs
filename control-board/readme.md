@@ -15,14 +15,15 @@ Initially, the board was based on the ESP32-S3-WROOM module that Espressif offer
 
 ## Features
 - Tiny size! It's just over 2" square (51mm x 51mm)
-- ESP32-S3 based, so you can get USB-HID support out of the box and won't need to use Bluetooth or additional boards*
+- ESP32-S3 based, so you can get USB-HID support out of the box*
 - Dedicated connections for loadcell, servo serial, servo signal, an emergency cut-off button
 - DIP switches to select the pedal type when using the wireless bridge (Accelerator, Brake or Clutch)
 - All headers are 2.54mm, meaning you can connect 'normal' pin headers, JST-XH connectors or just solder straight to the board, use screw terminals or use any other 2.54mm pitch connector
 - Fully compatible with mainline release builds, you don't need any special firmware builds to use this PCB
 - If you want to use the wireless connection, an u.fl/IPEX connector is included for an external antenna (useful if you pedal is aluminum)
-- USB-B connector for power and data (the ESP32-S3 can also be flashed with this interface)
-- If you're going totally wireless, the board can be powered directly from the 5V header without a USB cable plugged in.
+- USB-C connector for power and data (the ESP32-S3 is also be flashed with this interface)
+- If you're going totally wireless, the board can be powered directly from the 5V header without a USB cable plugged in
+- LED for troubleshooting
 
 *As of the time of writing, USB-HID support is experimental and may be unreliable. This board also has a IPEX header for wireless communication to the wireless setup or you can use vJoy.
 
