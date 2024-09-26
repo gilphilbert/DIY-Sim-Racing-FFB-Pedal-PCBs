@@ -1,6 +1,4 @@
-# DIY-Sim-Racing-FFB-Pedal-PCBs
-This repository contains my PCB Designs for ChrGri/DIY-Sim-Racing-FFB-Pedal
-
+# DIY Sim Racing FFB Pedal PCBs
 These PCB designs are custom-built for the [DIY Force Feedback Pedal](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal), and probably aren't really useful for anything else. Most of the boards are designed to be bought fully assembled by a PCBA company - my files should all work at JLCPCB. The power PCB you could probably assemble by hand if you have the equipment, but don't even try with the others.
 
 This repository contains files for the fully-assembled PCBs for the DIY project including the control and power boards.
