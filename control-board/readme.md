@@ -11,7 +11,7 @@ Initially, the board was based on the ESP32-S3-WROOM module that Espressif offer
  ![3D Image](pcb-v1.2.jpg)
 
  > ![INFO]
- > Yes, I know the image says v1.1, but this is the v1.2 board, it was a silkscreen misprint!
+ > The image says v1.1, but this is the v1.2 board, it was a silkscreen misprint!
 
 ## Features
 - Tiny size! It's just over 2" square (51mm x 51mm)
