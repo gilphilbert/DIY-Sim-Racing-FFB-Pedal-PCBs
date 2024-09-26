@@ -36,7 +36,7 @@ Click `Next`
 It means you don't need to solder any components onto the board! However, you are responsible for (doing a good job) soldering any connectors you want to use onto the boards. Boards will ship without pin connectors, unless you modify your order with JLCPCB. You can use:
 - [JST-XH connectors](https://www.aliexpress.us/item/4000120545240.html) a standard connector widely used in electronics, in fact they're in the iSV Servo
 - [Screw terminals](https://www.aliexpress.us/item/1005001677869988.html) an easy way to connect that just uses bare wire, but are bulkier
-- [Pin headers](https://www.aliexpress.us/item/1005001514058091.html) not generally recommended as they're unreliable
+- [Pin headers](https://www.aliexpress.us/item/1005001514058091.html) not generally recommended as they're unreliable, but exceptions exist (read the board readme files!)
 - Solder wire straight to the board
 
 ## Questions?
