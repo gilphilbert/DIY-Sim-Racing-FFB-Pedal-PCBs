@@ -39,5 +39,11 @@ It means you don't need to solder any components onto the board! However, you ar
 - [Pin headers](https://www.aliexpress.us/item/1005001514058091.html) not generally recommended as they're unreliable, but exceptions exist (read the board readme files!)
 - Solder wire straight to the board
 
+## Wiring
+![Wiring Diagram](images/pcba-wiring.png) 
+- Wire sizes are approximate: AWG28/AWG18 meet the specifications, but thicker wires can be used.
+- Connector options are flexible: select connectors that match the wire size.
+- For board stacking: solder P2 on the power board to the opposite side, using, for example, a Dupont connector.
+
 ## Questions?
 Come ask on [the PCBA channel on the Discord server](https://discordapp.com/channels/1113129142142120159/1269625529334628373).
