@@ -39,5 +39,8 @@ It means you don't need to solder any components onto the board! However, you ar
 - [Pin headers](https://www.aliexpress.us/item/1005001514058091.html) not generally recommended as they're unreliable, but exceptions exist (read the board readme files!)
 - Solder wire straight to the board
 
+## Wiring
+![Wiring Diagram](images/pcba-wiring.png) 
+
 ## Questions?
 Come ask on [the PCBA channel on the Discord server](https://discordapp.com/channels/1113129142142120159/1269625529334628373).
