@@ -46,4 +46,4 @@ It means you don't need to solder any components onto the board! However, you ar
 - For board stacking: solder P2 on the power board to the opposite side, using, for example, a Dupont connector.
 
 ## Questions?
-Come ask on [the PCBA channel on the Discord server](https://discordapp.com/channels/1113129142142120159/1269625529334628373).
+Come ask on [the PCBA channel on the Discord server](https://discord.gg/zTfQaxpAUz).
