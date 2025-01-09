@@ -45,5 +45,11 @@ It means you don't need to solder any components onto the board! However, you ar
 - Connector options are flexible: select connectors that match the wire size.
 - For board stacking: solder P2 on the power board to the opposite side, using, for example, a Dupont connector.
 
+ > [!NOTE]
+ > When wiring this board to the servo, please note that Tx on the board connects to Tx on the servo and Rx connects to Rx, so all connections should match.
+
+ > [!NOTE]
+ > The loadcell connections on this board are swapped compared with the V3/V4 boards. This means that if you simply disconnect a V3 board and plug in a V4 board, you will need to enable "Swap LC connections" in the SimHub plugin.
+
 ## Questions?
 Come ask on [the PCBA channel on the Discord server](https://discord.gg/zTfQaxpAUz).
