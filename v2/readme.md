@@ -46,7 +46,7 @@ No, the resistor is currently optional and should only be required for users who
 Unlike the v1 board, the v2 board will ship with screw terminals installed. You will need to manually swap the connectors while ordering, or deselect them and hand solder different connectors if you don't want to use the screw terminals. Honestly, their the easiest and least error-prone to use.
 
 ## Assign a function
-Before you begin, you must assign a function to the pedal: throttle, brake or clutch. This is done with SW1. You will find instructions on the back of the board but they're here for reference:
+Before you begin, you must assign a function to the pedal: throttle, brake or clutch. This is done with SW1. You will find instructions on the  board but they're here for reference:
 
 ![SW1 reference](../images/usage/setting-pedal-type.png)
 
