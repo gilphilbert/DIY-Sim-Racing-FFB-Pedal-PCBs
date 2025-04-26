@@ -5,7 +5,8 @@ This repository contains files for the fully-assembled PCBs for the DIY project 
 
 ### Control boards
 The v1 [ESP32-S3-based pedal control board](control-board/readme.md) is the brains of the pedal, offering USB and wireless connections
-The v2 board is integrates the power and control boards into a single board with new features not available on the v1 board, such as servo power control, a buzzer, hands-free firmware uprades and more.
+
+The [v2 board](control-board/v2/readme.md) integrates the power and control boards into a single board with new features not available on the v1 board, such as servo power control, a buzzer, hands-free firmware uprades and more.
 
 ### Power board
 The [power board](power-board/readme.md) provides protection for the iSV57T servo and 5V power for the v1 control board
