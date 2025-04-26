@@ -3,11 +3,12 @@ These PCB designs are custom-built for the [DIY Force Feedback Pedal](https://gi
 
 This repository contains files for the fully-assembled PCBs for the DIY project including the control and power boards.
 
-### Control board
-The [ESP32-S3-based pedal control board](control-board/readme.md) is the brains of the pedal, offering USB and wireless connections
+### Control boards
+The v1 [ESP32-S3-based pedal control board](control-board/readme.md) is the brains of the pedal, offering USB and wireless connections
+The v2 board is integrates the power and control boards into a single board with new features not available on the v1 board, such as servo power control, a buzzer, hands-free firmware uprades and more.
 
 ### Power board
-The [power board](power-board/readme.md) provides protection for the iSV57T servo and 5V power for the control board
+The [power board](power-board/readme.md) provides protection for the iSV57T servo and 5V power for the v1 control board
 
 ## Ordering assembled PCBs
 You can buy plain boards and assemble them yourself if you're a massachist. I've done it myself but I don't recommend it. Placing some of the devices, especially the ESP32-S3 IC are very tricky due to their size and how close the pins are. Only do this if you're really sure you can do it right! For most mortals, get the PCB assembled professionaly by a robot that's better at this than we are.
@@ -22,6 +23,11 @@ Now click `Next`. You will need to sign in or create an account to continue.
 4. You'll see a picture of the PCB (step 1). Just click `Next`, there's nothing to do here.
 5. Next you'll need to upload the BOM and pick-and-place files you downloaded. Click on the `Process` button
 You might see a warning at this point for some of the boards. Don't panic! That's normal, just press on "Continue"
+ > [!NOTE]
+ > If any parts are out of stock, ask on the Discord server
+
+ > [!NOTE]
+ > For the v2 board, C25 is optional and can safely be deselected for most users. See the v2 page for more details. The v2 board also requires a hand-soldered resistor. Again, see the documentation for more details
 ![Warning](images/ordering/5-error.png)
 6. The next screen will show you all the parts in the BOM and confirm the quantity of each. If stock is low or there isn't any stock of some parts then you will be notified. You will need to find a compatible part. Feel free to ask on the PCBA channel on the Discord server if you don't know how to find a part. Don't use the recommended replacements in the window, they're often the wrong size!
 **Note**
