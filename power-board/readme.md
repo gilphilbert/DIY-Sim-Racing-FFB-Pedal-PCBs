@@ -34,4 +34,4 @@ The XT30 power connector has defined polarity. Make sure you follow it! **You wi
 ![correct polarity](../images/xt30-polarity.jpg)
 
 ## To stack the boards
-You will need [2.5mm standoffs](https://www.amazon.com/COMRUN-M2-5-Standoff-Assortment-Motherboard/dp/B0CKBWQSNY) for stacking the board. The gap between the boards will be 11mm when using standard pin headers between the boards. Using 10mm stand-offs works well. You can either remove the plastic spacer from the male pin header on the control board, or add a screw to the 10mm spacer for a 12mm gap.
+You will need [2.5mm standoffs](https://www.amazon.com/COMRUN-M2-5-Standoff-Assortment-Motherboard/dp/B0CKBWQSNY) for stacking the board. The gap between the boards will be 11mm when using standard pin headers between the boards. Using 10mm stand-offs works well. You can either remove the plastic spacer from the male pin header on the control board, or add a nut to the 10mm spacer for a 12mm gap.
