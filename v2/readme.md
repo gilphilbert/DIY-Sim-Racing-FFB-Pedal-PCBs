@@ -5,8 +5,8 @@ The v2 board is an updated, integrated version of the previous "stacking" v1 des
 
  ![3D Image](3drender.png)
 
- > [!NOTE]
- > The v2 board is currently in Release Candidate. This means that I've tested the board and haven't experienced any issues, but the baord hasn't had wider testing yet. I cannot guarantee that you won't run into issues and it's possible that a new board may be required if issues arise that can't be fixed in software. That means you might need to order a second set of boards if something really bad is discovered!
+ > [!WARNING]
+ > The v2 board is currently in Release Candidate. This means that I've tested the board and haven't experienced any issues, but the board hasn't had wider testing yet. I cannot guarantee that you won't run into issues and it's possible that a new board may be required if issues arise that can't be fixed in software. That means you might need to order a second set of boards if something really bad is discovered!
 
  > [!NOTE]
  > Unlike the v1 board, the v2 board design includes a brake resistor. This resistor cannot be installed during assembly and must be sourced separately and hand soldered to the board.
