@@ -39,8 +39,8 @@ Unlke the v1 board, the v2 board requires a aluminum wirewound resistor that *yo
 
 If you're going to be using the wireless connection you'll need an antenna for the board. I use the flexible internal type but you can use anything that has an IPEX 1 connector. I use [this one](https://www.amazon.com/Antenna-2-4GHz-Internal-Laptop-Module/dp/B0CQCBHMDS/ref=sr_1_3?sr=8-3)
 
-## That big resistor , C25,is really big. Do I need it?
-No, the resistor is currently optional and should only be required for users who set their braking force extremely high. Most users will not require it. Most users can deselect the component when ordering the board, which also keeps the height of the board down. It can always be added later by hand if required.
+## That big capacitor, C25, is really big. Do I need it?
+No, the capacitor is currently optional and should only be required for users who set their braking force extremely high. Most users will not require it. Most users can deselect the component when ordering the board, which also keeps the height of the board down. It can always be added later by hand if required.
 
 ## A quick note on connectors
 Unlike the v1 board, the v2 board will ship with screw terminals installed. You will need to manually swap the connectors while ordering, or deselect them and hand solder different connectors if you don't want to use the screw terminals. Honestly, their the easiest and least error-prone to use.
