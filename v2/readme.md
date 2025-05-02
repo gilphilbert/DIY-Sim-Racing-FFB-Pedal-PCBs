@@ -18,7 +18,7 @@ The v2 board is an updated, integrated version of the previous "stacking" v1 des
 - Dedicated channels for USB-HID and serial when used in USB connect mode [new for v2]
 - Dedicated connections for loadcell, servo serial, servo signal, an emergency cut-off button
 - DIP switches to select the pedal type when using the wireless bridge (Accelerator, Brake or Clutch)
-- All headers, except servo power, are 2.54mm, meaning you can select your connection type: screw terminals (recommnended for new builds), JST-XH, or soldering straight to the board. DuPont connectors are not recommended
+- All headers, except servo power, are 2.54mm, meaning you can select your connection type: screw terminals (recommnended for new builds), or soldering straight to the board. DuPont connectors are not recommended. The V2 board does not support the JST-XH included on the V1 board. If you are moving from a V1 board, you will need to cut off the connectors and wire them into the screw terminals
 - RS232 interface chip for more reliable connection to the servo [new for v2]
 - Built in buzzer [new for v2]
 - Brake resistor circuit [new for v2]
