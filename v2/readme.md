@@ -3,9 +3,6 @@
 ## Background
 The v2 board is an updated, integrated version of the previous "stacking" v1 design that brings all components onto a single board. It's a more compact design, since it's a single board and it's also cheaper to purchase (compared with a control + power board for the v1 design). The design goals are the same as the v1 board, although the v2 board has some new features that are not available in the v1 form factor.
 
- > [!WARNING]
- > The v2 board is currently in Release Candidate. This means that I've tested the board and haven't experienced any issues, but the board hasn't had wider testing yet. I cannot guarantee that you won't run into issues and it's possible that a new board may be required if issues arise that can't be fixed in software. That means you might need to order a second set of boards if something really bad is discovered!
-
  ![3D Image](3drender.png)
 
  > [!NOTE]
@@ -31,6 +28,7 @@ The v2 board is an updated, integrated version of the previous "stacking" v1 des
 - Optional capacitor for extreme braking use [not normally required]
 - GPIO 33/34/35 are broken out on the PCB for extensibility [new for v2]
 - All connectors are at the end of the board for simple connetivity [new for v2]
+- Extra protection diode and larger footprint capacitor for easier ordering (GA)
 
 *As of the time of writing, USB-HID support is experimental and may be unreliable. This board also has a IPEX header for wireless communication to the wireless setup or you can use vJoy.
 
