@@ -41,7 +41,7 @@ If you're going to be using the wireless connection you'll need an antenna for t
 No, the capacitor is currently optional and should only be required for users who set their braking force extremely high. Most users will not require it. Most users can deselect the component when ordering the board, which also keeps the height of the board down. It can always be added later by hand if required.
 
 ## A quick note on connectors
-Unlike the v1 board, the v2 board will ship with screw terminals installed. You will need to manually swap the connectors while ordering, or deselect them and hand solder different connectors if you don't want to use the screw terminals. Honestly, their the easiest and least error-prone to use.
+Unlike the v1 board, the v2 board will ship with screw terminals installed. You will need to manually swap the connectors while ordering, or deselect them and hand solder different connectors if you don't want to use the screw terminals. Honestly, they're the easiest and least error-prone to use.
 
 ## Assign a function
 Before you begin, you must assign a function to the pedal: throttle, brake or clutch. This is done with SW1. You will find instructions on the  board but they're here for reference:
