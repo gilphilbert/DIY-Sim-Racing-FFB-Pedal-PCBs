@@ -8,6 +8,9 @@ The v2 board is an updated, integrated version of the previous "stacking" v1 des
  > [!NOTE]
  > Unlike the v1 board, the v2 board design includes a brake resistor. This resistor cannot be installed during assembly and must be sourced separately and hand soldered to the board.
 
+ > [!INFO]
+ > The v2.1 version of this board adds a surface-mount capacitor, changes out Q4 for better reliability and adds a new warning to add a resistor for the brake circuit
+
 ## Features
 - Compact size! 91mm x 51mm. The design is thin, so will fit under most pedal designs [new for v2]
 - ESP32-S3 based for reliability
